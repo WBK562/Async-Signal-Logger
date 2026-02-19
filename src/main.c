@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <signal.h>
 #include <time.h>
-#include "logger.h"
+#include "../include/logger.h"
 
 void send_log_packet(const char* phase) {
     printf("-> Attempting to write 3 messages (MIN, STD, MAX)...\n");
